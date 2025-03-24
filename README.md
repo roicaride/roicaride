@@ -11,7 +11,7 @@
 - 📊 Enthusiastic about **data-driven decision making and analytics**
 - 🤖 Actively learning and applying **Machine Learning** techniques
 - 🛠️ Skilled in **Python, HTML, CSS, JavaScript**, and more
-- 🌐 Created my first responsive [portfolio website](https://roicaride.github.io) featuring interactive design and [Particles.js](https://vincentgarreau.com/particles.js/)
+- 🌐 Created my [portfolio website](https://roicaride.github.io) when you can see all my projects, of data science and other types
 - 📚 Always staying updated with the latest trends in **technology** and **innovation**
 
 ---
