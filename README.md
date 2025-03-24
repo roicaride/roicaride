@@ -1,6 +1,6 @@
 # 👋 Hi there! I'm Roi Caride
 
-🎓 **Student of [Business and Technology](https://www.usc.gal/en/studies/bachelors-degrees/bachelors-degree-in-business-and-technology)** at **University of Santiago de Compostela**  
+🎓 **Student of Business and Technology** at **University of Santiago de Compostela**  
 🚀 Passionate about **Data Science**, **Machine Learning**, and creating **data-driven solutions**  
 💡 Exploring the intersection of **Business, Technology, and AI**
 
