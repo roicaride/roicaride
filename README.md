@@ -10,15 +10,39 @@ I build and evaluate LLM systems: retrieval-augmented generation, fine-tuning, a
 
 - 🎓 **MSc in Computing – AI with NLP** @ Dublin City University (2026–2027)
 - 🤖 **AI Engineer Intern** @ Altia Consultores (2026) — built a RAG system over internal documentation using open-source LLMs running locally (Qwen via Ollama)
-- 📄 **Thesis (9.7/10):** *Experimental optimization of RAG systems* — end-to-end evaluation pipeline (Kedro + RAGAS) on a Spanish corpus of ~1,900 sections. The final configuration (bge-m3 embeddings, fixed 256-token chunking, MMR retrieval, cross-encoder reranking) improved precision + recall by **+59%** over the baseline and beat a maximal state-of-the-art stack
 - 💼 **Open to** part-time roles and internships in AI / NLP during my MSc, and full-time positions from 2027
+
+---
+
+## 📌 Featured project
+
+### [rag-sweep](https://github.com/roicaride/rag-sweep) — Bachelor's thesis (9.7/10)
+
+A reproducible framework for finding the RAG configuration that actually works on *your* corpus. It runs a sequential ablation over embeddings, chunking, retrieval, query expansion and reranking, and carries each stage's winner forward into the next. New variants are added through YAML, not code.
+
+- **Case study:** EU copyright law (EUR-Lex), 29 full configurations evaluated with 6 RAGAS metrics and an independent judge LLM
+- **+59%** precision + recall over a naive baseline
+- The empirically found configuration beat a "state-of-the-art" stack assembled from the literature by **~9%**, at a lower cost to run
+- **Stack:** Kedro · LangChain · RAGAS · Qdrant · MLflow
+
+### [Viñalert](https://github.com/roicaride/vinalert) — Precision viticulture platform 🍇
+
+🏆 Winner of the *Semente Ribeira Sacra* university hackathon.
+
+A full vertical slice from sensor to screen. Solar-powered ESP32 nodes with RS-485 soil probes report over LoRa (868 MHz) to a master node, which uploads the readings to a FastAPI + PostgreSQL backend. Each reading is enriched with the weather at that exact moment, and a React web app turns the data into irrigation guidance and agronomic analysis.
+
+- Evapotranspiration-based water balance, treatment logs, foliar sensor ingestion and time-series analysis
+- Multi-tenant access with per-plot roles, plus revocable IoT device tokens
+- The sampling interval is tuned remotely from the web UI, with no reflashing
+- **305 backend + 86 frontend tests**
+- **Stack:** ESP32 / Arduino · LoRa · FastAPI · PostgreSQL · SQLAlchemy · APScheduler · React · Vite · Tailwind
 
 ---
 
 ## 🧠 Focus areas
 
 - **LLMs & RAG** — retrieval, chunking strategies, reranking, local model deployment
-- **Evaluation** — gold dataset generation, RAGAS metrics, custom Spanish-language prompts
+- **Evaluation** — ablation studies, gold dataset generation, RAGAS metrics, LLM-as-judge
 - **Fine-tuning** — LoRA / parameter-efficient methods
 - **NLP** — language modelling, multilingual text, machine translation
 
@@ -40,7 +64,17 @@ I build and evaluate LLM systems: retrieval-augmented generation, fine-tuning, a
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white)
 ![Kedro](https://img.shields.io/badge/Kedro-FFC900?style=flat&logo=kedro&logoColor=black)
+![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=flat&logo=mlflow&logoColor=white)
+![Qdrant](https://img.shields.io/badge/Qdrant-DC244C?style=flat)
 ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat&logo=powerbi&logoColor=black)
+
+**Backend, Web & IoT**
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat&logo=tailwindcss&logoColor=white)
+![Arduino](https://img.shields.io/badge/Arduino%20%2F%20ESP32-00878F?style=flat&logo=arduino&logoColor=white)
 
 **Tools**
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
