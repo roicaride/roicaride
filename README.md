@@ -14,7 +14,7 @@ I build and evaluate LLM systems: retrieval-augmented generation, fine-tuning, a
 
 ---
 
-## 📌 Featured project
+## 📌 Featured projects
 
 ### [rag-sweep](https://github.com/roicaride/rag-sweep) — Bachelor's thesis (9.7/10)
 
@@ -36,6 +36,14 @@ A full vertical slice from sensor to screen. Solar-powered ESP32 nodes with RS-4
 - The sampling interval is tuned remotely from the web UI, with no reflashing
 - **305 backend + 86 frontend tests**
 - **Stack:** ESP32 / Arduino · LoRa · FastAPI · PostgreSQL · SQLAlchemy · APScheduler · React · Vite · Tailwind
+
+### Other projects
+
+| Project | What it is | Stack |
+| --- | --- | --- |
+| [titanic-top-4.7](https://github.com/roicaride/titanic-top-4.7) | Kaggle Titanic — **top 4.7%**. Feature engineering and comparison of five tuned classifiers | scikit-learn · XGBoost |
+| [SongRecommender](https://github.com/roicaride/SongRecommender) | Content-based music recommender: K-Means clustering + in-cluster k-NN over Spotify audio features, served by a Flask API | Flask · scikit-learn · pandas |
+| [Edge detection with U-Net](https://github.com/roicaride/Image-Dataset-Explorer-and-Preprocessing) | Image preprocessing pipeline and U-Net for edge detection, compared against watershed segmentation | TensorFlow · OpenCV |
 
 ---
 
