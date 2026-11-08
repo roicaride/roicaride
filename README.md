@@ -1,16 +1,40 @@
+<div align="center">
+
 # Hi, I'm Roi Caride 👋
 
-**AI Engineer focused on NLP** · MSc student in Computing – AI with NLP at **Dublin City University** · Based in **Dublin, Ireland** 🇮🇪
+### I build retrieval systems — and I measure whether they actually work.
 
-I build and evaluate LLM systems: retrieval-augmented generation, fine-tuning, and rigorous evaluation. I'm interested in language modelling and machine translation.
+**AI Engineer · NLP** &nbsp;|&nbsp; MSc Computing (AI with NLP) @ Dublin City University &nbsp;|&nbsp; Dublin, Ireland 🇮🇪
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-roicaride.github.io-0A66C2?style=for-the-badge&logo=githubpages&logoColor=white)](https://roicaride.github.io)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Roi%20Caride-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/roi-caride-borrajo-1167a4227)
+[![Email](https://img.shields.io/badge/Email-roicaride4%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:roicaride4@gmail.com)
+
+</div>
 
 ---
 
-## 🔭 What I'm doing
+## 👤 About me
+
+I'm an AI engineer from Galicia working on **LLM systems for language**: RAG pipelines, local open-source models, fine-tuning and, above all, the **evaluation** that tells you which setup to trust. My bachelor's thesis turned that into a tool: a reproducible ablation framework whose empirically found configuration beat a literature-assembled "SOTA" RAG stack by ~9% on a real legal corpus. I'm now doing an MSc in AI with NLP at DCU, focusing on language modelling and machine translation.
+
+**TL;DR**
+- 🔎 **RAG & evaluation** — retrieval, chunking, reranking, RAGAS, LLM-as-judge, ablation studies
+- 🧪 **Measured results** — thesis graded 9.7/10, +59% over a naive RAG baseline
+- 🏭 **Industry experience** — built a RAG system with local LLMs (Qwen via Ollama) at Altia Consultores
+- 🏆 **Ships end to end** — hackathon-winning IoT platform, from ESP32 firmware to a React app
+- 🌍 **Multilingual** — Spanish, Galician, English, Portuguese
+
+---
+
+## 🔭 Now
 
 - 🎓 **MSc in Computing – AI with NLP** @ Dublin City University (2026–2027)
-- 🤖 **AI Engineer Intern** @ Altia Consultores (2026) — built a RAG system over internal documentation using open-source LLMs running locally (Qwen via Ollama)
 - 💼 **Open to** part-time roles and internships in AI / NLP during my MSc, and full-time positions from 2027
+
+## 🧳 Experience
+
+- 🤖 **AI Engineer Intern** @ Altia Consultores · Mar–Jun 2026 — built a RAG system over internal documentation using open-source LLMs running locally (Qwen via Ollama)
 
 ---
 
@@ -108,5 +132,5 @@ Spanish & Galician (native) · English (fluent) · Portuguese (fluent) · Italia
 
 - **Portfolio:** [roicaride.github.io](https://roicaride.github.io)
 - **Email:** [roicaride4@gmail.com](mailto:roicaride4@gmail.com)
-- **LinkedIn:** [Roi Caride Borrajo](https://linkedin.com/in/roi-caride-borrajo-1167a4227)
+- **LinkedIn:** [Roi Caride Borrajo](https://www.linkedin.com/in/roi-caride-borrajo-1167a4227)
 - **Telegram:** [@roicaride](https://t.me/roicaride)
